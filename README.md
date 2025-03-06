@@ -1,46 +1,71 @@
-# Welcome to your Expo app 👋
+# Vocal Practice App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native application that helps users practice their singing by providing real-time pitch detection and feedback. Built with Expo and NativeWind.
 
-## Get started
+## Features
 
-1. Install dependencies
+- 🎵 Select notes to practice from C4 to C5
+- 🎯 Real-time pitch detection and visualization
+- 📊 Visual feedback with pitch graph
+- 🎤 Recording capability for practice sessions
+- 🔄 Practice mode with reference notes
+- 💡 Instant feedback on pitch accuracy
+- 👆 Long-press notes to hear reference tones
+
+## Getting Started
+
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Start the development server:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run on your device:
+   - Scan QR code with Expo Go (iOS/Android)
+   - Press 'a' for Android emulator
+   - Press 'i' for iOS simulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Select Notes**: Tap notes you want to practice
+2. **Practice Mode**: 
+   - Press "Live Practice" to start practicing with reference notes
+   - Long-press any note to hear how it should sound
+3. **Recording**: 
+   - Use "Record Practice" to save your practice session
+   - Review recordings to track progress
 
-## Get a fresh project
+## Technical Stack
 
-When you're ready, run:
+- React Native with Expo
+- NativeWind (Tailwind CSS for React Native)
+- Expo AV for audio handling
+- React Native Chart Kit for visualizations
+- Pitchfinder for pitch detection
 
-```bash
-npm run reset-project
-```
+## Requirements
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Node.js 14+
+- Expo CLI
+- iOS/Android device or emulator
 
-## Learn more
+## Development
 
-To learn more about developing your project with Expo, look at the following resources:
+This project uses:
+- TypeScript for type safety
+- NativeWind for styling
+- Expo AV for audio processing
+- File-based routing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## License
+
+MIT
 
 ## Join the community
 
